@@ -5,68 +5,39 @@
 - Lớp: Hệ thống thông tin k48
 - Môn học: Lập trình Web
 - Mục tiêu: Thành thạo GitHub để làm việc nhóm hiệu quả
-# 🧳 Quản Lý Tour Du Lịch – Travel Tour Management System
+  
+# 🧳 Quản Lý Tour Du Lịch
 
-> Ứng dụng web giúp các công ty du lịch quản lý tour, đặt chỗ, theo dõi lịch trình và chăm sóc khách hàng hiệu quả.
-
----
-
-## 📖 Mục lục
-
-- [Giới thiệu](#-giới-thiệu)
-- [Thành viên nhóm](#-thành-viên-nhóm)
-- [Tính năng](#-tính-năng)
-- [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
-- [Hướng dẫn cài đặt](#-hướng-dẫn-cài-đặt)
-- [Cách sử dụng](#-cách-sử-dụng)
-- [Đóng góp](#-đóng-góp)
-- [Giấy phép](#-giấy-phép)
-- [Liên hệ](#-liên-hệ)
-
----
-
-## 📝 Giới thiệu
-
-**Quản Lý Tour Du Lịch** là ứng dụng hỗ trợ các công ty tổ chức và quản lý các tour du lịch một cách trực quan và hiệu quả. Người dùng có thể:
-
-- Tạo và quản lý các tour với thông tin chi tiết (thời gian, địa điểm, giá cả).
-- Đặt chỗ và theo dõi tình trạng đặt tour.
-- Quản lý khách hàng và lịch trình tour.
-- Báo cáo doanh thu và hiệu quả kinh doanh.
+> Ứng dụng giúp quản lý tour, đặt chỗ và theo dõi lịch trình hiệu quả.
 
 ---
 
 ## 👥 Thành viên nhóm
 
-| Họ và tên       | Vai trò                  | Email               |
-|-----------------|--------------------------|---------------------|
-| Nguyễn Văn A    | Trưởng nhóm / Backend    | nguyenvana@email.com|
-| Trần Thị B      | Frontend                 | tranthib@email.com  |
-| Lê Văn C        | Thiết kế UI/UX           | levanc@email.com    |
-| Phạm Thị D      | Tài liệu & Kiểm thử      | phamthid@email.com  |
+- Trần Thị Mỹ Duyên – Trưởng nhóm   
+- Trịnh Cẩm Tiên –  Thành viên
+- Trần Nguyễn Gia Bảo – Thành viên
 
 ---
 
-## ✨ Tính năng
+## Tính năng
 
-- Quản lý danh sách tour (thêm, sửa, xóa)
-- Đặt tour và quản lý đặt chỗ
-- Tìm kiếm và lọc tour theo địa điểm, thời gian, giá
-- Hệ thống đăng nhập phân quyền (Admin, User)
-- Thống kê báo cáo doanh thu
-
----
-
-## 💻 Công nghệ sử dụng
-
-| Công nghệ    | Mục đích                    |
-|--------------|-----------------------------|
-| ReactJS      | Giao diện người dùng         |
-| Node.js      | Xử lý backend API            |
-| Express      | Framework backend            |
-| MongoDB      | Cơ sở dữ liệu                |
-| TailwindCSS  | Thiết kế giao diện           |
-| JWT          | Xác thực và phân quyền       |
+- Quản lý tour: thêm, sửa, xóa  
+- Đặt tour và quản lý khách hàng  
+- Tìm kiếm, lọc tour  
+- Báo cáo doanh thu  
 
 ---
 
+## 💻 Công nghệ
+
+ReactJS | Node.js | Express | MongoDB | TailwindCSS
+
+---
+
+## ⚙️ Cài đặt & Chạy
+
+```bash
+git clone <repo-url>
+cd backend && npm install && npm run dev
+cd ../frontend && npm install && npm start
