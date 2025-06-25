@@ -31,7 +31,7 @@
 
 ## 💻 Công nghệ
 
-ReactJS | Node.js | Express | MongoDB | TailwindCSS
+HTML|CSS|PHP|JS|SQL
 
 ---
 
